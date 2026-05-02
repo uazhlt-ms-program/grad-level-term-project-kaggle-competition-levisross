@@ -12,6 +12,9 @@ RUN pip install -U pytorch-lightning \
     notebook==6.4.6 \
     jupyter-client==7.1.2 \
     jupyter-contrib-nbextensions==0.5.1 \
+    numpy \
+    pandas \
+    scikit-learn \
     && jupyter contrib nbextension install --user
 
 # copy executables to path
