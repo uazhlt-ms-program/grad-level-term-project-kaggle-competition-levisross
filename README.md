@@ -7,6 +7,14 @@ The competition is hosted at [https://www.kaggle.com/competitions/ling-539-compe
 
 **To join the competition, you must accept it at the following URL**: [https://www.kaggle.com/t/03c8dd2e91474ec1b64203601079805b](https://www.kaggle.com/t/03c8dd2e91474ec1b64203601079805b)
 
+# Opening the file
+Clone the repository, navigate to the repository and use:
+docker run -p 7777:9999 -v "$PWD:/app/" ml-notebook
+
+
+
+
+
 # Notes
 - This project involves a **performance evaluation** as well as your **graded assessment**. It's important to keep these two things separate in your mind.
   - The rubric which will be used to assess your submission *for a grade* (ie, not to evaluate the performance of your model) is in the D2L assignment item
