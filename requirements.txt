@@ -13,3 +13,4 @@ black
 torch==1.10.2
 pytorch-lightning
 graphviz==0.16
+langdetect==1.0.9

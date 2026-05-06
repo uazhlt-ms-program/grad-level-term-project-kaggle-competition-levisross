@@ -17,7 +17,7 @@ Build the container with:
 
 Run the container with:
     
-    docker run -p 7777:9999 -v "$PWD:/app/" ml-notebook
+    docker run -it -p 7777:9999 -v "$PWD:/app/" ml-notebook
 
 For the classifier to access the data, it must be run in the same directory.
 
