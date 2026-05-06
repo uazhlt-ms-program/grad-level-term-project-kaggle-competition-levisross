@@ -9,9 +9,17 @@ The competition is hosted at [https://www.kaggle.com/competitions/ling-539-compe
 
 # Opening the file
 Clone the repository, navigate to the repository and use:
-docker run -p 7777:9999 -v "$PWD:/app/" ml-notebook
+
+Build the container with:
+    
+    docker build -t ml-notebook .
 
 
+Run the container with:
+    
+    docker run -p 7777:9999 -v "$PWD:/app/" ml-notebook
+
+For the classifier to access the data, it must be run in the same directory.
 
 
 
